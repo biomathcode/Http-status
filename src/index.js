@@ -1,8 +1,7 @@
 import ForgeUI, { 
     render,
-    useProductContext, 
-    CustomField, 
-    CustomFieldView, 
+    useProductContext,
+    CustomField,
     CustomFieldEdit, 
     Text, 
     Select, 
@@ -25,19 +24,21 @@ const View = () => {
         }
     }
 
-    const fieldValue = useProductContext().platformContext.fieldValue;
+    const {
+        extensionContext: { fieldValue },
+    } = useProductContext();
 
     return (
-        <CustomFieldView>
+        <CustomField>
             <Text>
                 <StatusLozenge text={fieldValue || 'None'} appearance={getLozengeApperance(fieldValue)} />
             </Text>
-        </CustomFieldView>
+        </CustomField>
     );
 };
 
 const Edit = () => {
-    const onSave = (formValue) => {
+    const onSubmit = (formValue) => {
         const riskValue = formValue.impact * formValue.likelihood;
 
         if (riskValue <= 2) {
@@ -50,7 +51,7 @@ const Edit = () => {
     }
 
     return (
-        <CustomFieldEdit onSave={onSave} header="Select risk" width="medium" >
+        <CustomFieldEdit onSubmit={onSubmit} header="Select risk" width="medium" >
             <Fragment>
                 <Select label="Impact" name="impact" isRequired>
                     <Option label="low" value="1" />
@@ -67,5 +68,5 @@ const Edit = () => {
     );
 };
 
-export const renderFieldView = render(<CustomField view={<View />} />);
+export const renderFieldView = render(<View />);
 export const renderFieldEdit = render(<Edit />);
