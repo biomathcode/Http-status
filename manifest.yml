@@ -5,12 +5,9 @@ modules:
       description: The risk of the issue, from low to high
       edit:
         function: edit
-      data:
-        type: string
-        storage:
-          issueProperty:
-            key: forgeRiskFieldValue
-      readOnly: false
+      type: string
+      issueProperty:
+        key: forgeRiskFieldValue
       function: view
   function:
     - key: view
