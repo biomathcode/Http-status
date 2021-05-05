@@ -6,8 +6,6 @@ modules:
       edit:
         function: edit
       type: string
-      issueProperty:
-        key: forgeRiskFieldValue
       function: view
   function:
     - key: view
