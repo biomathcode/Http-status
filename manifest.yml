@@ -1,8 +1,8 @@
 modules:
   jira:customField:
-    - key: risk-assessment-custom-field
-      name: Risk Assessment
-      description: The risk of the issue, from low to high
+    - key: Http-status
+      name: Http status
+      description: http response status custom field
       edit:
         function: edit
       type: string
@@ -13,5 +13,4 @@ modules:
     - key: edit
       handler: index.renderFieldEdit
 app:
-  id: ari:cloud:ecosystem::app/bbeb7089-326b-4164-9a6b-464b560aa102
-  name: Risk Assessment
+  id: ari:cloud:ecosystem::app/78895b38-ebe2-4486-ac01-310a586b8653
