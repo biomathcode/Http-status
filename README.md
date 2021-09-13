@@ -1,54 +1,48 @@
-# Paletto
+# Http Status 
 
-✨Beautiful Color palettes in confluence as macro
+github repo: [here](https://github.com/pratiksharm/Http-status)
 
-github repo: [here](https://github.com/pratiksharm/Paletto)
-
-atlassian marketplace: [here](https://developer.atlassian.com/console/install/2119cb23-10ed-4e66-bae2-2ee73b1626ab?signature=4a3d24752ab82b6d8b698b9a96e64eb8784ebad26e78b27e56afbc5ab6e568ee&product=confluence)
+atlassian marketplace: [here](https://developer.atlassian.com/console/myapps/78895b38-ebe2-4486-ac01-310a586b8653/overview)
 
 ## ⚡ Idea
 
-### Approach
+### Story behind the idea
 
-This is the first time I am participating in codegeist. For the idea part, I just went with **"me as a user"** approach. I started asking myself what type of app i should build that can be 
+A while back i was working in a startup. We were three people mostly, backend developer, me the frontend guy and the idea guy. While working there the most of the issues that were related to http status and api calls. We mostly will keep asking "What's the response?".
 
-- Simple
-- Minimalistic
-- Works as utility
-- Increases my productivity
+As, the team got bigger and we added a lot of new interns. They too started working with api's and some of them would have a similar issue mostly. If some had a 401 issue I would have to tell them to authorize. 
 
 ### Actual Idea
 
-As a front-end developer, i have to search a lot for good color palette. Design is such a trial and error process. I would end up opening multiple chrome tabs full of color palettes. When I am working with my team I become difficult and end up wasting a lot of time.
+> Either you are above the api or below the api
+
+Http status is basically a custom issue field in a jira issue. I think it can be of great help while working on making rest apis. Since, most of the issue with the same response error will have the same solution. The frontend guys or the tester would be making the same mistakes, those issue can be solved and clubed together. 
+
+This is a very simple, yet something which can give high utility and productivity. Highly helpful for days when the backend developer and fronend developer join their hands. 
+
+Backend developer 🤝 front developer 
+
+"What's the response?" 
 
 ## ⚙️ What it does
 
-### Paletto
+### Http status
 
-- Gives nice color Palette of five color with their hex color codes
-- Save the palette / get a new random one (works for single instance of macro)
-- The palette can be download from confluence
-- Works like charm
-- Paletto is open sourced - git clone [here](https://github.com/pratiksharm/Paletto.git)
+- Custom field for http status for working with rest api's
+- Open sourced
+- All the http response (1XX, 2XX, 3XX, 4XX, 5XX)
 
-App for Confluence
+App for jira
 
-type: Macro
+type: custom field in issue
 
-target audience: front-end developer ( IT developer) and designers
+target audience: DevOps (testers, QA, backend, frontend)
 
-function : utility, productivity, design
+function : organisation, utility 
 
 ### How it works
 
-I have a  json file of 1000 color palette that you can chose from. We randomly fetch one of the palettes and display it as svg in an image tag. Save it if you like the palette.(currently save works for single instance of macro).
-
-## Challenges we ran into
-
-I was not familiar with the Atlassian jira and confluence rest apis. I was a total noob at the terminologies used in both the products. 
-
-- working with storage api
-- Svg stuff
+Add the http response custom field in your issue panel. Now, you can organise your issue based on the http response they have. 
 
 ## Accomplishments
 
@@ -58,11 +52,11 @@ I was not familiar with the Atlassian jira and confluence rest apis. I was a tot
 - Open sourced
 - Free ( when i will release it)
 
-## What's next for Paletto
+## What's next for http response
 
 - [ ]  Give more customization options
-- [ ]  User can have make their own color palettes
-- [ ]  right now save options work for only one macro instance
+- [ ]  Create an  admin page based on the http response
+- [ ]  Working more on organising the issues.
 
 ## Feedback, Feedback, Feedback
 
@@ -83,6 +77,7 @@ email me at : sharma.pratik2016@gmail.com
 or
 
 fork it.
+
 ## Requirements
 
 See [Set up Forge](https://developer.atlassian.com/platform/forge/set-up-forge/) for instructions to get set up.
