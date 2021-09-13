@@ -13,317 +13,317 @@ import ForgeUI, {
 
 const data = [
     {
-        value: 100,
+        value: "100",
         label: "100 Continue",
         color: "#36B37E",
     },
     {
-        value: 101,
+        value: "101",
         label: "101 Switching Protoco",
         color: "#36B37E",
     },
     {
-        value: 102,
+        value: "102",
         label: "102 Processing",
         color: "#36B37E",
     },
     {
-        value: 200,
+        value: "200",
         label: "200 OK",
         color: "#FFAB00",
     },
     {
-        value: 201,
+        value: "201",
         label: "201 created",
         color: "#FFAB00",
     },
     {
-        value: 202,
+        value: "202",
         label: '202 Accepted',
         color: '#FFAB00'
     },
     {
-        value: 203,
+        value: "203",
         label: '203 Non-authoritative Information',
         color: '#FFAB00'
     },
     {
-        value: 204,
+        value: "204",
         label: '204 No Content',
         color: '#FFAB00'
     },
     {
-        value: 205,
+        value: "205",
         label: '205 Reset Content',
         color: '#FFAB00'
     },
     {
-        value: 206,
+        value: "206",
         label: '206 Partial Content',
         color: '#FFAB00'
     },
     {
-        value: 207,
+        value: "207",
         label: '207 Multi-Status',
         color: '#FFAB00'
     },
     {
-        value: 208,
+        value: "208",
         label: '208 Already Reported',
         color: '#FFAB00'
     },
     {
-        value: 226,
+        value: "226",
         label: '226 IM used',
         color: '#FFAB00'
     },
     {
-        value: 300,
+        value: "300",
         label: '300 Multiple choices',
         color: "#FF5630"
     },
     {
-        value: 301,
+        value: "301",
         label: '301 Moved Permanently',
         color: '#FF5630'
     },
     {
-        value: 302,
+        value: "302",
         label: '302 Found',
         color: '#FF5630'
     },
     {
-        value: 303,
+        value: "303",
         label: '303 See Other',
         color: '#FF5630'
     },
     {
-        value: 304,
+        value: "304",
         label: '304 Not Modified',
         color: '#FF5630'
     },
     {
-        value: 305,
+        value: "305",
         label: '305 Use Proxy',
         color: '#FF5630'
     },
     {
-        value: 307,
+        value: "307",
         label: '307 Temporary Redirect',
         color: '#FF5630'
     },
     {
-        value: 308,
+        value: "308",
         label: '308 Permanent Redirect',
         color: '#FF5630'
     },
     {
-        value: 400,
+        value: "400",
         label: '400 Bad Request',
         color: '#00B8D9'
     },
     {
-        value: 401,
+        value: "401",
         label: '401 Unauthorized',
         color: '#00B8D9'
     },
     {
-        value: 402,
+        value: "402",
         label: '402 Payment Required',
         color: '#00B8D9'
     },
     {
-        value: 403,
+        value: "403",
         label: '403 Forbidden',
         color: '#00B8D9'
     },
     {
-        value: 404,
+        value: "404",
         label: '404 Not Found',
         color: '#00B8D9'
     },
     {
-        value: 405,
+        value: "405",
         label: '405 Method Not Allowed',
         color: '#00B8D9'
     },
     {
-        value: 406,
+        value: "406",
         label: '406 Not Acceptable',
         color: '#00B8D9'
     },
     {
-        value: 407,
+        value: "407",
         label: '407 Proxy Authentication Required',
         color: '#00B8D9'
     },
     {
-        value: 408,
+        value: "408",
         label: '408 Request Timeout',
         color: '#00B8D9'
     },
     {
-        value: 409,
+        value: "409",
         label: '409 Conflict',
         color: '#00B8D9'
     },
     {
-        value: 410,
+        value: "410",
         label: '410 Gone',
         color: '#00B8D9'
     },
     {
-        value: 411,
+        value: "411",
         label: '411 Length Required',
         color: '#00B8D9'
     },
     {
-        value: 412,
+        value: "412",
         label: '412 Precondition Failed',
         color: '#00B8D9'
     },
     {
-        value: 413,
+        value: "413",
         label: '413 Payload Too Large',
         color: '#00B8D9'
     },
     {
-        value: 414,
+        value: "414",
         label: '414 Request URL Too Long',
         color: '#00B8D9'
     },
     {
-        value: 415,
+        value: "415",
         label: '415 Unsupported Media Type',
         color: '#00B8D9'
     },
     {
-        value: 416,
+        value: "416",
         label: '416 Requested Range Not Satisfiable',
         color: '#00B8D9'
     },
     {
-        value: 417,
+        value: "417",
         label: '417 Expectation Failed',
         color: '#00B8D9'
     },
     {
-        value: 418,
+        value: "418",
         label: '418 I am a Teapot',
         color: '#00B8D9'
     },
     {
-        value: 421,
+        value: "421",
         label: '421 Misdirected Request',
         color: '#00B8D9'
     },
     {
-        value: 422,
+        value: "422",
         label: '422 Unprocessable Entity',
         color: '#00B8D9'
     },
     {
-        value: 423,
+        value: "423",
         label: '423 Locked ',
         color: '#00B8D9'
     },
     {
-        value: 424,
+        value: "424",
         label: '424 Failed Dependency',
         color: '#00B8D9'
     },
     {
-        value: 426,
+        value: "426",
         label: '426 Upgrade Required',
         color: '#00B8D9'
     },
     {
-        value: 428,
+        value: "428",
         label: '428 Precondition Required',
         color: '#00B8D9'
     },
     {
-        value: 429,
+        value: "429",
         label: '429 Too Many Requests',
         color: '#00B8D9'
     },
     {
-        value: 431,
+        value: "431",
         label: '431 Request Header Fields Too Large',
         color: '#00B8D9'
     },
     {
-        value: 444,
+        value: "444",
         label: '444 Connection Closed Without Response',
         color: '#00B8D9'
     },
     {
-        value: 451,
+        value: "451",
         label: '451 Unavailabe For Legal Reasons',
         color: '#00B8D9'
     },
     {
-        value: 499,
+        value: "499",
         label: '499 Client Closed Request',
         color: '#00B8D9'
     },
     {
-        value: 500,
+        value: "500",
         label: '500 Internal Server Error',
         color: '#6554C0'
     },
     {
-        value: 501,
+        value: "501",
         label: '501 Not Implemented',
         color: '#6554C0'
     },
     {
-        value: 502,
+        value: "502",
         label: '502 Bad Gateway',
         color: '#6554C0'
     },
     {
-        value: 503,
+        value: "503",
         label: '503 Service Unavailable',
         color: '#6554C0'
     },
     {
-        value: 504,
+        value: "504",
         label: '504 Gateway Timeout',
         color: '#6554C0'
     },
     {
-        value: 505,
+        value: "505",
         label: '505 HTTP Version Not Supported',
         color: '#6554C0'
     },
     {
-        value: 506,
+        value: "506",
         label: '506 Variant Also Negotiates',
         color: '#6554C0'
     },
     {
-        value: 507,
+        value: "507",
         label: '507 Insufficient Storage',
         color: '#6554C0'
     },
     {
-        value: 508,
+        value: "508",
         label: '508 Loop Detected',
         color: '#6554C0'
     },
     {
-        value: 510,
+        value: "510",
         label: '510 Not Extended',
         color: '#6554C0'
     },
     {
-        value: 511,
+        value: "511",
         label: '511 Network Authentication Required',
         color: '#6554C0'
     },
     {
-        value: 599,
+        value: "599",
         label: '599 Network Connect Timeout Error',
         color: '#6554C0'
     }
@@ -359,13 +359,13 @@ const View = () => {
 
 const Edit = () => {
     const onSubmit = (values) => {
-        return values.status;
+        return values.response;
     }
 
     return (
         <CustomFieldEdit onSubmit={onSubmit} header="Select Status" width="medium" >
             <Fragment>
-                <Select name="status" label="Http status" isRequired>
+                <Select name="response" label="Http status" isRequired>
                     {
                         data.map((option) => {
                             return (

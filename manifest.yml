@@ -7,6 +7,7 @@ modules:
         function: edit
       type: string
       function: view
+  
   function:
     - key: view
       handler: index.renderFieldView
